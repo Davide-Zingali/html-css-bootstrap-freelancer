@@ -2,32 +2,37 @@
 *  {
   text-align: center;
   color: white;
+  font-family: "Nunito",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 img {
   max-width: 100%;
+  border-radius: 8px;
+  margin: 13px 0;
 }
 .dz_foto {
-  padding: 20px 60px;
-  margin: 13px 0;
+  /* padding: 20px 60px; */
+  /* margin: 13px 0; */
 }
 .stella_b {
   color: black;
 }
+
 /* regole selettive */
 /* nav */
+.navbar-default {
+  background: none;
+}
 .sfondo_nav {
   background-color: #2c3e50;
 }
-nav {
-  min-height: 100px;
+.navbar {
+  border: none;
+  margin-bottom: 0;
 }
-nav div h3 {
-  text-align: left;
+#bs-example-navbar-collapse-1 ul li a, a.navbar-brand {
+  line-height: 100px;
+  color: white;
 }
-nav ul li {
-  display: inline-block;
-}
-
 /* header */
 header {
   padding: 60px 0;
@@ -36,10 +41,6 @@ header {
 
 /* main */
 /* prima sezione */
-main section:first-child .row:last-child > div .dz_foto {
-  background-color: blue;
-  border-radius: 10px;
-}
 main section:nth-child(1) {
   margin: 50px 0 60px 0;
 }
@@ -51,6 +52,12 @@ main section:nth-child(1) .container .row > * {
 main section:nth-child(2) {
   background-color: #1abc9c;
   padding: 60px 0;
+}
+/* bottone */
+.btn-default {
+  margin-top: 50px;
+  background-color: transparent;
+  color: white;
 }
 
 /* terza sezione */
@@ -67,6 +74,7 @@ footer .row:first-child {
   background-color: #3a546d;
 }
 footer .row:last-child {
+  line-height: 110px;
   background-color: #2c3e50;
 }
 /* regole debug */
