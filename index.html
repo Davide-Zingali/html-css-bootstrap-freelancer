@@ -15,12 +15,11 @@
     <div class="container-fluid">
 
       <!-- nav -->
-      <div class="row sfondo_nav">
+      <nav class="sfondo_nav">
         <div class="container">
-
-          <!-- navbar presa da bootstrap -->
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
+          <div class="row">
+            <!-- navbar presa da bootstrap -->
+            <nav class="navbar navbar-default">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -38,11 +37,11 @@
                   <li><a href="#">CONTACT</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>
-
+            </nav>
+          </div>
         </div>
-      </div>
+      </nav>
+
       <!-- header -->
       <header class="row">
           <!-- box su foto -->
@@ -129,7 +128,7 @@
             </div>
             <!-- box download giù -->
             <div class="col-xs-12	col-sm-12	col-md-12	col-lg-12">
-              <button type="button" class="btn btn-default"><i class="fas fa-download"></i>Download</button>
+              <button type="button" class="btn btn-default"><i class="fa fa-download" aria-hidden="true"> Download</i>
             </div>
         </section>
 
@@ -142,18 +141,20 @@
             </div>
 
           <!-- input di compilazione -->
-            <div class="col-xs-12	col-sm-8 col-sm-offset-2	col-md-8 col-md-offset-2	col-lg-8 col-lg-offset-2">
+            <div class="col-xs-10 col-xs-offset-1	col-sm-8 col-sm-offset-2	col-md-8 col-md-offset-2	col-lg-8 col-lg-offset-2">
 
               <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
+                  <!-- <label for="exampleInputEmail1"></label> -->
                   <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Name">
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
                   <input type="tel" class="form-control" id="exampleInputEmail1" placeholder="Phone Number">
                   <textarea class="form-control" rows="3" placeholder="Message"></textarea>
                 </div>
                 <!-- bottone invio -->
-                <button type="submit" class="btn btn-default">Send</button>
+                <button type="submit" class="btn btn-success bottone2">
+                  <div>Send</div>
+                </button>
               </form>
 
             </div>
@@ -174,7 +175,11 @@
           </div>
           <!-- cx -->
           <div class="col-xs-12	col-sm-4	col-md-4	col-lg-4">
-            <h3>AROUND THE WEB</h3> F G T I
+            <h3>AROUND THE WEB</h3>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
           </div>
           <!-- dx -->
           <div class="col-xs-12	col-sm-3	col-md-3	col-lg-3">
