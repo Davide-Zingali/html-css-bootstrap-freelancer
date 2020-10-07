@@ -25,9 +25,16 @@ img {
   border: none;
   margin-bottom: 0;
 }
-#bs-example-navbar-collapse-1 ul li a, a.navbar-brand {
-  line-height: 100px;
+.navbar-default .navbar-nav > li > a {
   color: white;
+}
+.navbar-default .navbar-brand {
+  color: white;
+  height: 100px;
+  line-height: 60px;
+}
+.navbar-nav > li > a {
+  line-height: 60px;
 }
 /* header */
 header {
